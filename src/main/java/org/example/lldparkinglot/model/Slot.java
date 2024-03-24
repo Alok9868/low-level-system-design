@@ -3,7 +3,16 @@ package org.example.lldparkinglot.model;
 public class Slot {
 
     Integer slotNo;
+    Car car;
     Boolean isFree;
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
 
     public Slot(Integer slotNo, Boolean isFree) {
         this.slotNo = slotNo;
