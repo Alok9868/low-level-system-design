@@ -21,7 +21,7 @@ public class LruCache<V> {
         this.currSize = 0;
     }
 
-    public void put(Integer key, V value) {
+    public synchronized void put(Integer key, V value) {
         DoublyLinkedList<V> node = hashMap.get(key);
         if (node != null) {
             // remove that node from the hashmap and added a new node in front of the linked list
@@ -38,7 +38,7 @@ public class LruCache<V> {
         }
     }
 
-    public V get(Integer key) {
+    public synchronized V get(Integer key) {
         DoublyLinkedList<V> node = hashMap.get(key);
         if (node != null) {
             // delete that node from its current position and insert it in the front of the linkedlist

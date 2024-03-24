@@ -1,9 +1,5 @@
 package org.example;
 
-import org.example.designpatterns.singleton.Samosa;
-import org.example.designpatterns.strategy.CreditCardPayment;
-import org.example.designpatterns.strategy.PayPalPayment;
-import org.example.designpatterns.strategy.ShoppingCard;
 import org.example.lrucache.DoublyLinkedList;
 import org.example.lrucache.LruCache;
 
@@ -23,17 +19,30 @@ public class Main {
 //        shoppingCard.pay(10000);
 
 
-        LruCache<String>lruCache=new LruCache<>(5);
-        System.out.println(lruCache.get(0));
-        lruCache.put(10,"167");
-        lruCache.put(12,"18");
-        lruCache.put(13,"109");
-        lruCache.put(14,"100");
-        lruCache.put(156,"1000");
-        lruCache.put(10,"5");
-        lruCache.put(1,"adsf");
-        System.out.println(lruCache.get(12));
+        LruCache<String> lruCache = new LruCache<>(5);
+        Thread t1 = new Thread(() -> {
+            lruCache.put(10, "167");
+            lruCache.put(12, "18");
+            lruCache.put(13, "109");
+            lruCache.put(14, "100");
+            lruCache.put(156, "1000");
+            lruCache.put(10, "5");
+            lruCache.put(1, "adsf");
+            System.out.println(lruCache.get(1));
+        });
+        Thread t2 = new Thread(() -> {
+            lruCache.put(10, "167");
+            lruCache.put(12, "18");
+            lruCache.put(13, "109");
+            lruCache.put(14, "100");
+            lruCache.put(156, "1000");
+            lruCache.put(10, "5");
+            lruCache.put(1, "oowe");
+            System.out.println(lruCache.get(1));
+        });
 
+        t1.start();
+        t2.start();
         HashMap<Integer, DoublyLinkedList<String>> hashMap = lruCache.hashMap;
 
         hashMap.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
