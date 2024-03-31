@@ -44,7 +44,6 @@ public class Main {
         t1.start();
         t2.start();
         HashMap<Integer, DoublyLinkedList<String>> hashMap = lruCache.hashMap;
-
         hashMap.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
 
 
