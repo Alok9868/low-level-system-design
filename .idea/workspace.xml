@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66d4cb5f-0f86-4a61-8012-ed2d22d10f7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/command/CommandPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/command/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/command/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/command/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/command/RemoteControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/with_srp/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/with_srp/InvoiceDatabaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/with_srp/InvoicePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/with_srp/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/without_srp/Invoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,21 +33,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Alok9868"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alok9868&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Alok9868/low-level-system-design.git",
-    "accountId": "4300cfbe-df84-4174-af9d-e7f62b386604"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Alok9868/low-level-system-design.git&quot;,
+    &quot;accountId&quot;: &quot;4300cfbe-df84-4174-af9d-e7f62b386604&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2nXsbYUR6qeUE8vt40ttUxUIwKn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,6 +61,7 @@
   "keyToString": {
     "Application.CommandPattern.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/alok/Desktop/Work/low-level-system-design",
