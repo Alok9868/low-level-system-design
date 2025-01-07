@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d4cb5f-0f86-4a61-8012-ed2d22d10f7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/without_lsv/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/without_lsv/Square.java" afterDir="false" />
+    <list default="true" id="66d4cb5f-0f86-4a61-8012-ed2d22d10f7a" name="Changes" comment="added liskov substitution principle .">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip/MySQLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/without_dip/MySQLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/without_dip/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/with_interface_seg/AreaInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/with_interface_seg/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/with_interface_seg/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/with_interface_seg/VolumeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/without_interface_seg/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/without_interface_seg/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/without_interface_seg/ShapeInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/with_srp/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/single_responsibility/with_srp/Invoice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +71,17 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alok/Desktop/Work/low-level-system-design/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv",
+    "last_opened_file_path": "/Users/alok/Desktop/Work/low-level-system-design/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip",
     "settings.editor.selected.configurable": "consents"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/interface_seg/with_interface_seg" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv" />
     </key>
   </component>
@@ -132,7 +141,20 @@
       <option name="presentableId" value="Default" />
       <updated>1729130827018</updated>
     </task>
+    <task id="LOCAL-00001" summary="added liskov substitution principle .">
+      <option name="closed" value="true" />
+      <created>1736172217184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736172217184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added liskov substitution principle ." />
+    <option name="LAST_COMMIT_MESSAGE" value="added liskov substitution principle ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
