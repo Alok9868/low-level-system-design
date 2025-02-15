@@ -1,4 +1,4 @@
-package org.example.designpatterns.strategy;
+package org.example.designpatterns.behavioural.strategy;
 
 public class PayPalPayment implements PaymentInterface {
 

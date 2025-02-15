@@ -5,7 +5,6 @@ public class Square extends Rectangle{
     // In this case , when using square in place of rectangle , the behaviour of rectangle
     // will change bcz height and width will become same , which is not intended.
 
-
     @Override
     public void setHeight(int h)
     {

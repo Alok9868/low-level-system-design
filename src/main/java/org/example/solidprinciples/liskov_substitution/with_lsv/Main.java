@@ -2,8 +2,6 @@ package org.example.solidprinciples.liskov_substitution.with_lsv;
 
 
 public class Main {
-
-
     public static void main(String[] args) {
 
         Shape rectangle = new Rectangle(1, 2);

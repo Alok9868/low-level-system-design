@@ -1,4 +1,4 @@
-package org.example.designpatterns.singleton;
+package org.example.designpatterns.creational.singleton;
 
 
 public class Samosa {

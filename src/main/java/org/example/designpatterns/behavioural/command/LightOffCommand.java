@@ -1,4 +1,4 @@
-package org.example.designpatterns.command;
+package org.example.designpatterns.behavioural.command;
 
 public class LightOffCommand implements Command{
     private final Light light;

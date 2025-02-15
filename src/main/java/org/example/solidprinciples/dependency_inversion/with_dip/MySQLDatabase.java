@@ -1,9 +1,7 @@
 package org.example.solidprinciples.dependency_inversion.with_dip;
 
-
-
 // Low-Level Module
-class MySQLDatabase implements Database{
+class MySQLDatabase implements Database {
 
     // Here we have implemented the interface functions , so that
     // the system is decoupled , any service will create the object of Database interface
