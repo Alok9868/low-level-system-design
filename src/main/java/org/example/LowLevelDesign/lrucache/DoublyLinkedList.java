@@ -1,4 +1,4 @@
-package org.example.lrucache;
+package org.example.LowLevelDesign.lrucache;
 
 public class DoublyLinkedList <V>{
 

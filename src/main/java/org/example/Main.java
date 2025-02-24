@@ -1,51 +1,69 @@
 package org.example;
 
-import org.example.lrucache.DoublyLinkedList;
-import org.example.lrucache.LruCache;
-
 import java.util.HashMap;
+import java.util.Stack;
 
 public class Main {
-    public static void main(String[] args) {
 
-//        ShoppingCard shoppingCard=new ShoppingCard();
-//        shoppingCard.setPaymentInterface(new CreditCardPayment("asdf","12","12"));
-//        shoppingCard.setItem(12);
-//        shoppingCard.pay(10000);
-//
-//
-//        shoppingCard.setPaymentInterface(new PayPalPayment("asdf","12"));
-//        shoppingCard.setItem(12);
-//        shoppingCard.pay(10000);
+    public static int longestValidParentheses(String s) {
+
+        int n = s.length();
+        Stack<Integer> st = new Stack<>();
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            if (s.charAt(i) == '(') {
+                st.push(i);
+            } else if (s.charAt(i) == ')') {
+                if (!st.isEmpty()) {
+                    if (s.charAt(st.peek()) == '(') {
+                        int curr_len = i - st.pop() + 1;
+                        ans = Math.max(ans, curr_len);
+                    }
+                }
+
+            }
+        }
+        return ans;
+    }
+
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
 
-        LruCache<String> lruCache = new LruCache<>(5);
-        Thread t1 = new Thread(() -> {
-            lruCache.put(10, "167");
-            lruCache.put(12, "18");
-            lruCache.put(13, "109");
-            lruCache.put(14, "100");
-            lruCache.put(156, "1000");
-            lruCache.put(10, "5");
-            lruCache.put(1, "adsf");
-            System.out.println(lruCache.get(1));
-        });
-        Thread t2 = new Thread(() -> {
-            lruCache.put(10, "167");
-            lruCache.put(12, "18");
-            lruCache.put(13, "109");
-            lruCache.put(14, "100");
-            lruCache.put(156, "1000");
-            lruCache.put(10, "5");
-            lruCache.put(1, "oowe");
-            System.out.println(lruCache.get(1));
-        });
+        Stack<Integer> st = new Stack<>();
 
-        t1.start();
-        t2.start();
-        HashMap<Integer, DoublyLinkedList<String>> hashMap = lruCache.hashMap;
-        hashMap.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+        int n = nums2.length;
+
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.empty() && st.peek() <= nums2[i]) {
+                st.pop();
+            }
+
+            int nextGreaterEle;
+            if (st.empty()) {
+                nextGreaterEle = -1;
+            } else {
+                nextGreaterEle = st.peek();
+            }
+            hashMap.put(nums2[i], nextGreaterEle);
+            st.push(nums2[i]);
+        }
+
+        int m = nums1.length;
+        int[] ans = new int[m];
+        for (int i = 0; i < m; i++) {
+            ans[i] = hashMap.get(nums1[i]);
+        }
+
+        return ans;
 
 
     }
+
+    public static void main(String[] args) {
+
+        longestValidParentheses("(()");
+    }
+
 }

@@ -1,4 +1,4 @@
-package org.example.lrucache;
+package org.example.LowLevelDesign.lrucache;
 
 import java.util.HashMap;
 import java.util.Objects;
@@ -26,16 +26,16 @@ public class LruCache<V> {
         if (node != null) {
             // remove that node from the hashmap and added a new node in front of the linked list
             deleteNodeFromLinkedList(node);
-            addNodeInFrontOfLinkedList(key, value);
         } else {
             // check if we reach the capacity
             if (Objects.equals(currSize, capacity)) {
                 // delete the lru key and add a new key
                 deleteNodeFromLinkedList(tail.getPrev());
             }
-            // add the new key in hashmap and linkedlist
-            addNodeInFrontOfLinkedList(key, value);
+
         }
+        // add the new key in hashmap and linkedlist
+        addNodeInFrontOfLinkedList(key, value);
     }
 
     public synchronized V get(Integer key) {
