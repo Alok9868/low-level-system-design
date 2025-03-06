@@ -1,9 +1,6 @@
 package org.example.LowLevelDesign.ticTacToe;
 
-import org.example.LowLevelDesign.ticTacToe.entity.Board;
-import org.example.LowLevelDesign.ticTacToe.entity.O_Piece;
-import org.example.LowLevelDesign.ticTacToe.entity.Players;
-import org.example.LowLevelDesign.ticTacToe.entity.X_Piece;
+import org.example.LowLevelDesign.ticTacToe.entity.*;
 
 import java.util.Arrays;
 import java.util.List;

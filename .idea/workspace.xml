@@ -5,33 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66d4cb5f-0f86-4a61-8012-ed2d22d10f7a" name="Changes" comment="added liskov substitution principle .">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/GameV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/GameV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/entity/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/entity/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/entity/Ladder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/entity/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/repo/LadderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/repo/SnakeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/service/LadderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/service/SnakeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/utils/DiceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/PieceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/TicTacToeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/O_Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Players.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/X_Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/EntryGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/EntryGateInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/ExitGateInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/LargeVehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/SmallVehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/parkingLot/model/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/rateLimiter/SlidingWindowRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/structural/proxy/Banker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/structural/proxy/BankerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/structural/proxy/BankerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designpatterns/structural/proxy/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/PieceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/PieceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/TicTacToeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/O_Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/O_Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/X_Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ticTacToe/entity/X_Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lrucache/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/lrucache/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lrucache/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/lrucache/LruCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/without_dip/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/without_dip/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/stream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lldparkinglot/model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lldparkinglot/model/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lldparkinglot/model/Slot.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -79,33 +81,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CommandPattern.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.org.example.LowLevelDesign.ticTacToe.Main.executor": "Run",
-    "Application.org.example.Main.executor": "Debug",
-    "Application.org.example.designpatterns.creational.factory.Main.executor": "Run",
-    "Application.org.example.designpatterns.structural.decorator.Main.executor": "Run",
-    "Application.org.example.java.Main.executor": "Run",
-    "Application.org.example.solidprinciples.open_closed.with_oc.Main.executor": "Run",
-    "Application.stream.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alok/Desktop/Work/low-level-system-design",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CommandPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.LowLevelDesign.ticTacToe.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.example.designpatterns.creational.factory.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.designpatterns.structural.decorator.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.designpatterns.structural.proxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.java.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.solidprinciples.open_closed.with_oc.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stream.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alok/Desktop/Work/low-level-system-design&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/dependency_inversion/with_dip" />
@@ -113,7 +116,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/solidprinciples/liskov_substitution/with_lsv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.LowLevelDesign.ticTacToe.Main">
+  <component name="RunManager" selected="Application.org.example.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.SnakeAndLadder.Main" />
       <module name="java-testing" />
@@ -132,7 +135,7 @@
       <module name="java-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.LowLevelDesign.ticTacToe.*" />
+          <option name="PATTERN" value="org.example.LowLevelDesign.ticTacToe.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.designpatterns.structural.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.structural.decorator.Main" />
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designpatterns.structural.decorator.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.solidprinciples.open_closed.with_oc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.solidprinciples.open_closed.with_oc.Main" />
+    <configuration name="org.example.designpatterns.structural.proxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designpatterns.structural.proxy.Main" />
       <module name="java-testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.solidprinciples.open_closed.with_oc.*" />
+          <option name="PATTERN" value="org.example.designpatterns.structural.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Main" />
+        <item itemvalue="Application.org.example.designpatterns.structural.proxy.Main" />
         <item itemvalue="Application.org.example.LowLevelDesign.ticTacToe.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.stream" />
-        <item itemvalue="Application.org.example.solidprinciples.open_closed.with_oc.Main" />
-        <item itemvalue="Application.org.example.designpatterns.structural.decorator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +221,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729130827018</updated>
-      <workItem from="1740386420753" duration="4618000" />
+      <workItem from="1740386420753" duration="10392000" />
+      <workItem from="1740543770826" duration="24296000" />
+      <workItem from="1741170577971" duration="16000" />
+      <workItem from="1741247341050" duration="1346000" />
+      <workItem from="1741252170335" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="added liskov substitution principle .">
       <option name="closed" value="true" />
@@ -249,13 +256,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>12</line>
+          <line>8</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/SnakeAndLadder/GameV1.java</url>
           <line>41</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

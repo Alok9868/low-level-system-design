@@ -2,7 +2,6 @@ package org.example.LowLevelDesign.ticTacToe.entity;
 
 import lombok.Builder;
 import lombok.Data;
-import org.example.LowLevelDesign.ticTacToe.PieceType;
 
 @Data
 @Builder

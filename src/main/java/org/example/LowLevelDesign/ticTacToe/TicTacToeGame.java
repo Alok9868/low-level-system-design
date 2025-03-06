@@ -22,7 +22,6 @@ public class TicTacToeGame {
         for (Players players : playersList) {
             playersQueue.add(players);
         }
-
     }
 
 
